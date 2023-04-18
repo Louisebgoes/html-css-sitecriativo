@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    background-color: #b5eafa;
+    color: rgb(7, 7, 8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+    float: left;
+}
+
+.topico-item1{
+    display: inline-block;
+    margin: 0 30px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Tilt Neon', cursive; 
+}
+
+.imagem-linguagens{
+    width: 20%;
+    display: flex;
+}
+
+.programacao{
+    background-image:linear-gradient(#d0eef7,#34b3ee);
+}
+
+.titulo-programacao{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: x-large;
+}
+
+.texto-programacao{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: larger;
+}
+
+.imagem-linguagens{
+    padding:10px 150px 30px 630px;
+}
+
+.Biologia{
+    background-image:linear-gradient(#d0eef7,#34b3ee);
+    text-align: center;
+    padding: 30px 0px;  
+}
+
+.reinos-todos{
+    display: grid;
+    grid-template-columns: 30% 40% 40% 30% 10%;
+}
+
+.reino-plantae{
+    padding: 20px 400px;
+}
+
+.reino-animalia{
+    padding: 20px 500px;
+}
+
+.titulo-bio{
+    text-align: center;
+    font-family: 'Tilt Neon', cursive; 
+    font-size: x-large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.texto-bio{
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;    
+}
+
+.imagem-bio{
+    width: 250px;
+    right: 250px;
+    align-content: center; 
+}
+
+.rodape{
+    background-color: #b5eafa;
+    color: black;
+    text-align: right;
+    display:flex;   
+}
+
+.botaogithub{
+    width: 30px;
+    height: 30px;
+}
+
+.botaoinsta{
+    width: 30px;
+    height:30px;
+}
